@@ -1,0 +1,106 @@
+header{
+  font-family: arial, sans-serif;
+  background-color: #4d4d4d;
+  color: white;
+  height: 150px;
+  width: 100%;
+  display: inline-block;
+}
+
+li{
+  display:inline;
+  text-align: center;
+}
+
+body{
+  font-family: arial, sans-serif;
+  background-color: #d9d9d9;
+  color: #4d4d4d;
+}
+
+h1{
+  margin-left: 15px;
+}
+
+.links{
+  padding-top: 80px;
+  float: left;
+}
+
+.links li{
+  padding-left: 40px;
+}
+
+.login{
+  width: 200px;
+  display:inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.icon{
+  width:20px;
+  height:20px;
+}
+
+.user-icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
+.logo{
+  width:200px;
+  height: auto;
+  padding-top: 40px;
+}
+
+.cards{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  flex: 0 0 23%;
+  text-align: left;
+  margin: 10px;
+  border-style: outset;
+  border-width: 3px;
+}
+
+.card-header{
+  height:200px;
+  background: url(../images/MattWeiss.jpg);
+  background-size: 100%;
+  background-position: 0px -70px;
+  opacity: .6;
+}
+
+.card-body{
+  background-color: white;
+}
+
+.go{
+  padding-left: 20px;
+  padding-top: 20px;
+  float:left;
+}
+
+.views{
+  padding-top: 20px;
+  padding-right: 20px;
+  color: white;
+  text-align: center;
+  float:right;
+}
+
+.views th{
+  font-size: 10px;
+}
+
+.views td{
+  font-size: 26px;
+}
