@@ -39,7 +39,7 @@ h3 {
   margin-top: auto;
 }
 
-.shares {
+.header-nav-shares {
   color: #F4F4F4;
 }
 
@@ -49,6 +49,7 @@ h3 {
 
 .header-login {
   margin-left: auto;
+  padding-right: 20px;
 }
 
 .login {
