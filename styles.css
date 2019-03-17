@@ -64,6 +64,11 @@ li.icon {
 li.icon.active {
   color: #ffffff;
 }
+
+svg {
+  display: none;
+}
+
 .icon:before, #users_link:after {
   content: '';
   display: inline-block;
