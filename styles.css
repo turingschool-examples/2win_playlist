@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  font-family: sans-serif;
+}
+
+header {
+  position: relative;
+  width: 1190px;
+  height: 149px;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 1190px;
+  box-sizing: border-box;
+}
