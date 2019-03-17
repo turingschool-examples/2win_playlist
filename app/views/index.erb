@@ -1,0 +1,70 @@
+<header>
+  <ul class='header-nav'>
+    <li class='header-nav-shares'>
+      <img src=/images/icons/share-icon.png alt="share icon" />
+      SHARES
+    </li>
+
+    <li>
+      <img src=/images/icons/list-icon.png alt="list icon" />
+      PLAYLIST
+    </li>
+
+    <li>
+      <img src=/images/icons/person-silhouette-icon.png alt="person silhouette icon" />
+      PERSONAL VIDEOS
+    </li>
+  </ul>
+
+  <ul class='header-login'>
+    <li class='login'>
+      <img src=/images/icons/person-silhouette-icon.png alt="person silhouette icon" />
+      Admin Username
+      <img src=/images/icons/down-triangle.svg alt="triangle down" />
+    </li>
+
+    <li class='logo'>
+      <img src=/images/logo.png alt="logo and name">
+    </li>
+  </ul>
+</header>
+
+<section class='main'>
+  <h1>Shares</h1>
+  <section class='card-ctn'>
+    <% 8.times do |card| %>
+    <section class='card'>
+      <section class='card-profile-ctn'>
+        <img class='card-profile-img' src=images/profile_images/1.jpg alt='Blake Profile Picture'>
+        <img class='card-arrow' src=images/icons/share-arrow-icon.svg alt='share arrow'>
+        <div class='card-views'>
+          VIEWS
+          <br>
+          <h2>02</h2>
+        </div>
+      </section>
+
+      <section class='card-details'>
+        <div class='card-name'>
+          <h3>Recipient's Namehere</h3>
+          <p>timestamp</p>
+        </div>
+
+        <div class='card-url'>
+          web address
+        </div>
+
+        <div class='card-playlist'>
+          <h4>PLAYLIST</h4>
+          <h3>Name of Playlist</h3>
+        </div>
+
+        <div class='card-attachments'>
+          <h4>ATTACHMENTS</h4>
+          <h2>04</h2>
+        </div>
+      </section>
+    </section>
+    <% end %>
+  </section>
+</section>

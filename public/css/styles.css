@@ -1,0 +1,143 @@
+body {
+  background-color: #EFEFEF;
+  color: #8B8B8B;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #2B2B2B;
+  height: 80px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  font-size: medium;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav li {
+  margin: 0 30px;
+  margin-top: auto;
+}
+
+.header-nav-shares {
+  color: #F4F4F4;
+}
+
+.header-nav li img {
+  width: 20px;
+}
+
+.header-login {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.login {
+  color: #5CB9F8;
+}
+
+.login img {
+  width: 20px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.main {
+  margin: 20px;
+}
+
+.main h1 {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.card-ctn {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 24%;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  margin: 5px;
+}
+
+.card-profile-ctn {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+.card-profile-img {
+  object-fit: cover;
+  width: inherit;
+  height: 200px;
+}
+
+.card-arrow {
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.card-views {
+  width: 40px;
+  position: absolute;
+  text-align: center;
+  right: 20px;
+  top: 10px;
+}
+
+.card-details {
+  padding: 15px;
+  width: calc(inherit-30px);
+  background-color: white;
+}
+
+.card-details div {
+  margin: 30px;
+}
+
+.card-details h2 {
+  color: #5CB9F8;
+}
+
+.card-details h3 {
+  color: #6A6A6A;
+}
+
+.card-details h4 {
+  color: #6A6A6A;
+}
+
+.card-name p {
+  color: #BCBDBF;
+}
+
+.card-url {
+  background-color: #EFEFEF;
+  padding: 10px;
+}
