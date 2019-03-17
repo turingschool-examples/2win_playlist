@@ -7,6 +7,10 @@ body, html {
 
 header {
   position: relative;
+  background-color: #2b2b2b;
+  background-image: url('2win_logo.png');
+  background-repeat: no-repeat;
+  background-position:  bottom 30px right 25px;
   width: 1190px;
   height: 149px;
   margin: 0 auto;
