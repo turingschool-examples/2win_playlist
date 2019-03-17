@@ -98,6 +98,86 @@ card section {
   background-color: #ffffff;
   color: #4d4d4d;
 }
+
+card h6 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+card .caption {
+  font-size: 13px;
+  color: #939393;
+}
+
+card .linkbox {
+  display: inline-block;
+  width: 100%;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 13px;
+  color: #939393;
+  background-color: #efefef;
+  margin: 20px 0;
+}
+
+card span:before {
+  font-size: 11px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: -14px;
+  color: #4d4d4d;
+}
+
+card .playlist_name, card .attachments {
+  display: inline-block;
+  position: relative;
+  margin: 14px 0;
+}
+
+card .attachments {
+  color: #25b4fe;
+  font-size: 30px;
+}
+
+card .views {
+  position: absolute;
+  top: -120px;
+  right: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+card .views:before {
+  color: #ffffff;
+}
+
+card button {
+  display: inline-block;
+  -webkit-appearance: none;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: -130px;
+  left: 15px;
+}
+
+card button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  filter: invert(100%) brightness(40%);
+}
+
 li.icon {
   color: #939393;
 }
@@ -122,6 +202,19 @@ svg {
 .icon.active:before {
   filter: invert(100%) brightness(73%);
 }
+
+.playlist_name:before {
+  content: 'playlist';
+}
+
+.attachments:before {
+  content: 'attachments';
+}
+
+.views:before {
+  content: 'views';
+}
+
 #users_link {
   display: inline-block;
   position: absolute;
