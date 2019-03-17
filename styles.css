@@ -1,0 +1,43 @@
+header {
+ background-color: rgb(53, 50, 50);
+ height: 100px
+}
+
+aside {
+    float: right;
+    float: top;
+}
+
+body {
+    background-color: antiquewhite;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+button {
+    color: antiquewhite;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+figcaption {
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+img.resize {
+    width:500px;
+    height:200px;
+  }
+
+.container {
+    float: bottom;
+}
+
+.list-inline-item {
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
