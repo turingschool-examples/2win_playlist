@@ -1,0 +1,18 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  background: #F0EEEE;
+}
+
+#admin li:hover{
+  float: right;
+  color: #3838FE;
+}
+
+#second-line li:hover{
+  display: inline-block;
+  float: left;
+  color: #E1E1E2;
+}
