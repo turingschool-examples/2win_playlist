@@ -1,0 +1,106 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #E8E8E8;
+}
+
+header {
+  background-color:  #282828;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: 	#0099ff;
+  font-family: 'Muli', sans-serif;
+}
+
+h3 {
+color: #585858;
+font-family: 'Muli', sans-serif;
+}
+
+h4 {
+color: #585858;
+font-size: 0.8rem;
+font-family: 'Muli', sans-serif;
+
+}
+
+h5 {
+  font-family: 'Muli', sans-serif;
+  color: gray;
+}
+
+article {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 2.5rem;
+  color: #585858;
+  font-family: 'Muli', sans-serif;
+}
+
+
+.login {
+  color: 	#0099ff;
+  float: right;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  background-image: url('')
+}
+
+.topnav {
+  padding-top: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+
+}
+
+.topnav a {
+  color: gray;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 50%;
+}
+
+.title {
+  float: right;
+  font-family: 'Lobster', cursive;
+  color: #A9A9A9;
+  font-size: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+
+.container {
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2px 16px;
+  width: 20%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rando-box {
+  margin-left: .5em;
+  margin-right: .5em;
+  background-color: #E8E8E8;
+}
