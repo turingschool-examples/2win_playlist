@@ -1,0 +1,57 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 200px;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#card_image{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#card_image_text{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+#cardlink{
+  width: 90%;
+  background-color: #eee;
+  word-wrap: break-word;
+  margin: 5px;
+}
+#nav {
+  background-color: grey;
+  color: white;
+  height: 100px;
+  position: relative;
+  /* padding-top: 0px;
+  top:0; */
+}
+#left{float:left;}
+#links{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+#right{float:right;}
+/* #logo { position: relative} */
+#logo img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+#profile {
+  color:blue;
+
+  }
