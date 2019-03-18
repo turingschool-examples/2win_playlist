@@ -1,0 +1,256 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  background: #282828;
+  padding: 20px 30px; 
+}
+
+nav {
+  display: flex;
+  margin: 30px 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.2em;
+  align-items: flex-end;
+}
+
+nav svg {
+  padding-right: 15px;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  display: inline;
+  padding-right: 40px;
+}
+
+nav a {
+  color: #A8A8A8; 
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav .active, nav .active svg {
+  color: white;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#user {
+  display: flex;
+  text-decoration: none;
+  color: #F7F3E3;
+}
+
+#user:hover {
+  color: #00BFFF;
+}
+
+#down-arrow {
+  align-self: center;
+}
+
+#user p {
+  font-weight: 400;
+  padding-left: 8px;
+  padding-right: 16px;
+  margin: 0;
+  align-self: center;
+}
+
+#logo {
+  align-self: center;
+  margin-left: auto;
+}
+
+.login-button p {
+  color: #00BFFF;
+}
+
+.login-button .fa-2x {
+  color: #00BFFF;
+}
+
+nav .fa-list-ul {
+  color: #00BFFF;
+}
+
+nav .fa-user {
+  color: #00BFFF;
+}
+
+main {
+  background-color: #F7F3E3; 
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+h1 {
+  color: #696969;
+  margin: 3% 0 3% 0;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(150, 150, 150);
+  width: 23.5%;
+  margin: 0 15px 15px 0;
+}
+
+.card header {
+  background-color: #28A2E4;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 15px 5px;
+  min-height: 150px;
+}
+
+.card .fa-stack-1x {
+  color: #696969;
+}
+
+.card .fa-stack-2x {
+  color: #F7F3E3;
+}
+
+.card .fa-stack:hover .fa-stack-2x {
+  color: #00BFFF;
+}
+
+.card header .fa-share {
+  color: #2B2B2B;
+}
+
+.card section {
+  background-color: white; 
+  padding: 15px 15px 15px 15px;
+}
+
+.card section a {
+  word-break: break-all;
+  background-color: #F7F3E3; 
+  display: flex;
+  padding: 10px;
+  padding-right: 10%;
+  color: #888888; 
+}
+
+.card .loves {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color:#F7F3E3; 
+}
+
+.card .meow-container {
+  color: white;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.card .num-meow {
+  font-size: 2em;
+  margin: 5px 0 0 0;
+  color: #F7F3E3;
+}
+
+.card h3 {
+  font-size: .75em;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  color: #696969; 
+}
+
+.card h2 {
+  margin: 0;
+  color: #696969; 
+  font-size: 1.2em;
+}
+
+.card .date {
+  margin: 5px 0 25px 0;
+  color: #888888; 
+}
+
+.card .attachments {
+  color: #00BFFF; 
+  font-size: 2em;
+  margin: 0 0 10px;
+}
+
+.card .link {
+  background-color: #E8E8E8;
+}
+
+.fa-stack {
+  cursor: pointer;
+}
+
+.background {
+  background-size: cover;
+}
+
+#cat-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://ichef.bbci.co.uk/images/ic/720x405/p0517py6.jpg);
+}
+
+@media screen and (max-width: 500px) {
+  body > header {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  nav {
+    display: block;
+    margin: 0;
+  }
+
+  nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  nav li {
+    display: block;
+    list-style: none;
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+
+  .main-nav img {
+    display: block;
+    margin: auto;
+  }
+
+  .login-button {
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+}
+
+
