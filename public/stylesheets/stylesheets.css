@@ -1,0 +1,190 @@
+body {
+  background-color: #EFEFEF;
+  font-family: geneva;
+}
+
+header {
+  background-color: #2B2B2B;
+  display: grid;
+  grid-template: 1fr 2fr / 1fr 1fr
+}
+
+nav {
+  grid-row: 2 / span 1;
+  grid-column:  1 / span 1;
+  display: flex;
+  justify-content: space-around;
+  color: #999999;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+
+nav img {
+  padding-right: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+h2 {
+  color: #2b2b2b;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+h5 {
+  font-size: 1.5vw;
+  margin-top: 2vw;
+}
+
+h6 {
+  font-size: 1vw;
+  margin-top: 1.5vw;
+  margin-bottom: -2vw;
+}
+
+.profile h4 {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 1;
+  color: white;
+  font-size: 1vw;
+  text-align: right;
+  padding-right: 1.5vw;
+  z-index: 10;
+}
+
+.website {
+  background: #EFEFEF;
+  width: 100%;
+  padding: 5px;
+  margin-left: -.25vw;
+}
+
+.website p {
+  color: #808080;
+  font-size: 1vw;
+}
+
+.current-user {
+  grid-column: 2 / span 1;
+  color: #26B5FF;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img.user-icon  {
+  width: 3vw;
+  height: 3vw;
+  padding: 10px;
+}
+
+img.arrow {
+  width: 1.5vw;
+  height: 2.5vw;
+  padding: 10px;
+}
+
+nav img {
+  width: 1.5vw;
+  height: auto;
+}
+
+.logo img {
+  width: auto;
+  height: 9vw;
+  padding-bottom: 20px;
+  padding-right: 25px;
+}
+
+.logo {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.share-card {
+  background-color: white;
+  width: 23.5%;
+  height: 50%;
+  box-shadow: 1px 1px 8px 0px #888888;
+  margin: 5px;
+}
+
+.profile {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  background: black;
+}
+
+.view-count {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  z-index: 10;
+  color: white;
+  font-size: 2.2vw;
+  text-align: right;
+  padding-right: 1.5vw;
+  padding-top: 2.6vw;
+}
+
+.info {
+  margin: 15px;
+  height: 25vw;;
+}
+
+.info h3 {
+  color: #4D4D4D;
+  font-size: 1.4vw;
+  margin-bottom: -1vw;
+}
+
+.info p {
+  color: #B0B0B2;
+  font-size: 1vw;
+}
+
+.attachments {
+  color: #26B5FF;
+  font-size: 3vw;
+  margin-top: 2vw;
+}
+
+#shares {
+  color: white;
+  display: inline;
+  font-size: 1.5vw;
+}
+
+#playlists {
+  display: inline;
+  font-size: 1.5vw;
+}
+
+#personal-videos {
+  display: inline;
+  font-size: 1.5vw;
+}
+
+
+#profile-pic {
+  width: 100%;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  z-index: 0;
+}
+
+#redo {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  width: 40%;
+  padding: 20px;
+  z-index: 10;
+}
