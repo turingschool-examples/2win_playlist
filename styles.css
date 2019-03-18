@@ -1,0 +1,41 @@
+body {
+  background-color: LightGray;
+}
+
+img {
+  width: 15%;
+}
+
+header {
+  background: black;
+  color: white;
+  height: 110px;
+  padding: 0 25px;
+}
+
+h1 {
+  float: right;
+  padding-top: 60px;
+  font-size: 30px;
+  position: relative; z-index: 1000 ;
+}
+
+#li_1 {
+  float: right;
+  padding-top: 20px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 70px;
+  padding-right: 55px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+section {
+  display: inline;
+}
