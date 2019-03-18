@@ -1,0 +1,55 @@
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+  padding: 15px 0px;
+}
+img {
+  max-width: 100%;
+}
+
+.shares {
+  background-color: #EDF2F4;
+}
+
+.recipient-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  max-height: 500px;
+  max-width:  200px;
+}
+.recipient-card a {
+  max-width: inherit;
+  display: flex;
+
+  border: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration-line: none;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.nav_dir {
+  padding-top: 40px;
+}
+.admin a {
+  display: flex;
+  font-size: 10px;
+  padding-right: 0px;
+  justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  background-color: #2C423F;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
