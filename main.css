@@ -1,0 +1,75 @@
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.logo-image{
+  width: 100px;
+  height: 100px;
+}
+
+.login-profile{
+  width: auto;
+  height: 10px;
+}
+
+.user-login{
+  display: flex;
+  justify-content: flex-end;
+  background: gray;
+  color: blue;
+}
+
+.body-wrapper{
+  background-color: ghostwhite;
+}
+
+.share-button{
+  height: auto;
+  width: 50px;
+  position: absolute;
+  top: 10%;
+}
+
+.base-image{
+  height: auto;
+  width: 200px;
+  z-index: 0
+}
+
+.view-items{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: blue;
+}
+
+.image-container{
+  position: relative;
+}
+
+.card-deck{
+  display: flex;
+}
+
+.card-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.url-color{
+  background-color: lightgray;
+}
+
+P {
+  line-height: 1px;
+}
